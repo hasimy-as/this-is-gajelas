@@ -1,0 +1,24 @@
+{
+  "name": "this-is-gajelas",
+  "version": "1.0.0",
+  "description": "I am bored.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasimy-as/this-is-gajelas.git"
+  },
+  "keywords": [
+    "Kaboom",
+    "Game",
+    "Dino"
+  ],
+  "author": "Hasimy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hasimy-as/this-is-gajelas/issues"
+  },
+  "homepage": "https://github.com/hasimy-as/this-is-gajelas#readme",
+  "dependencies": {
+    "kaboom": "^0.5.1"
+  }
+}
