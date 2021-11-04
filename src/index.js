@@ -61,8 +61,8 @@ scene('game', ({ level, score }) => {
 			'£                                                                              £',
 			'£                                                                              £',
 			'£                                x                                             £',
-			'£        @@@@@@              x x x  x         =====%%                          £',
-			'£                          x x x x  x  x     ==                    ===%%       £',
+			'£        @@@@@@              x x x  x         !!!!!%%                          £',
+			'£      !!                  x x x x  x  x     !!                    !!!%%       £',
 			'£                        x x x x x  x  x                                     -+£',
 			'£               z   z  x x x x x x  x  x                          z z        ()£',
 			'!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
@@ -161,7 +161,7 @@ scene('game', ({ level, score }) => {
 
 	player.collides('mushroom', (m) => {
 		destroy(m);
-		player.biggify(6);
+		player.biggify(10);
 	});
 
 	player.collides('coin', (c) => {
